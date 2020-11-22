@@ -1,2 +1,2 @@
-# Project1
-first website
+# Project1 - responsive bakery website
+
