@@ -29,6 +29,11 @@ ul{
   padding: 0 20px;
 }
 
+.dark{
+  padding: 20px;
+  background-color: #D8C3A5;
+  color: #fff;
+}
 
 /*header*/
 
@@ -50,7 +55,7 @@ header a{
 header li{
   float: left;
   display: inline;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 header #branding {
@@ -80,11 +85,10 @@ header a:hover{
 
 #showcase{
   min-height: 400px;
-  background:url(../images/cupcake-min.jpg) no-repeat;
+  background:url(../images/cupcake-mid.jpg) no-repeat;
   background-position: center;
   text-align: center;
   color: #fff;
-  back
 }
 
 #showcase h1{
@@ -97,10 +101,43 @@ header a:hover{
   font-size:20px;
 }
 
+#servicesShowcase{
+  min-height: 400px;
+  background:url(../images/services-min.jpg) no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+}
+
+#servicesShowcase h1{
+  margin-top: 150px;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#servicesShowcase ul{
+  margin-top: 30px;
+}
+
+#servicesShowcase li{
+  display: inline;
+  padding: 0 15px;
+  font-size: 20px;
+}
+
+#servicesShowcase li:hover{
+  color: #E98074;
+  font-weight: bold;
+}
+
+
+
+/*newsletter*/
+
 #newsletter{
   padding: 15px;
   color: white;
-  background: #E98074;
+  background: #d8c3a5;
 }
 
 #newsletter h1{
@@ -109,11 +146,65 @@ header a:hover{
 
 #newsletter form{
   float: right;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 #newsletter input[type="email"]{
   padding: 4px;
   height: 25px;
   width: 250px;
+}
+
+/*boxes*/
+
+#allergies{
+  margin-top: 20px;
+}
+
+#allergies .box{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+#allergies .box img{
+  width: auto;
+  height: 100px;
+}
+
+/*bakery details*/
+
+#bakery-details{
+  padding-top: 15px;
+}
+
+#sidebar{
+  float:right;
+  width: 35%;
+
+}
+
+#sidebar h3:hover{
+  color: #E98074;
+}
+
+#flour{
+  float: left;
+  width: 60%;
+
+}
+
+#oven{
+  float: left;
+  width: 60%;
+}
+/*footer*/
+
+footer{
+  padding: 10px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #E98074;
+  text-align: center;
 }
