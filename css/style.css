@@ -29,6 +29,15 @@ ul{
   padding: 0 20px;
 }
 
+.button_2{
+  height: 38px;
+  background:#E85A4F;
+  border: none;
+  color: #fff;
+  padding: 0 20px;
+  width: 100%;
+}
+
 .dark{
   padding: 20px;
   background-color: #D8C3A5;
@@ -130,6 +139,15 @@ header a:hover{
   font-weight: bold;
 }
 
+#servicesShowcase a{
+  color: #fff;
+  text-decoration: none;
+}
+
+#servicesArticle{
+  float: left;
+  width: 60%;
+}
 
 
 /*newsletter*/
@@ -182,23 +200,53 @@ header a:hover{
 #sidebar{
   float:right;
   width: 35%;
-
 }
 
 #sidebar h3:hover{
   color: #E98074;
 }
 
-#flour{
-  float: left;
-  width: 60%;
-
-}
-
-#oven{
+#flour, #oven{
   float: left;
   width: 60%;
 }
+
+/*services details*/
+
+#services{
+  padding-top: 15px;
+}
+
+#servicesArticle li{
+  float:left;
+  list-style: none;
+  padding:20px;
+  border: #ccc solid 1px;
+  margin-bottom: 5px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:10px;
+}
+
+
+
+/*theBaker*/
+
+#theBaker{
+  text-align:center;
+  padding-top: 25px;
+  margin: auto;
+  width:50%;
+}
+
+#theBaker img{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
 /*footer*/
 
 footer{
@@ -207,4 +255,53 @@ footer{
   color: #fff;
   background-color: #E98074;
   text-align: center;
+}
+
+/*media queries*/
+
+@media(max-width: 786px){
+  header #branding,
+  Header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #allergies .box,
+  #bakery-details,
+  #sidebar
+  #servicesArticle{
+    float:none;
+    text-align: center;
+    width:100%;
+      }
+
+    header{
+      padding-bottom: 20px;
+    }
+
+    #showcase h1{
+      margin-top: 80px;
+    }
+
+    #servicesShowcase h1{
+      margin-top: 80px;
+    }
+
+    #servicesShowcase li{
+      display:block;
+      padding: 5px;
+    }
+
+    #newsletter button{
+      display:block;
+      width:100%;
+    }
+
+    #newsletter form input[type="email"]{
+      width:100%;
+      margin-bottom:5px;
+    }
+
+    #flour, #oven, #quote, #sidebar, #servicesArticle{
+      width: 100%;
+    }
 }
